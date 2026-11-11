@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/contenedor10"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAFAFA">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Arrastra la pelota con el dedo"
+        android:textSize="20sp"
+        android:layout_gravity="top|center_horizontal"
+        android:layout_marginTop="24dp" />
+
+    <ImageView
+        android:id="@+id/ivPelota10"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_launcher_foreground"
+        android:background="@drawable/ic_launcher_background" />
+</FrameLayout>

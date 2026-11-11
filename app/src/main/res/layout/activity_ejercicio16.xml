@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/contenedor16"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F3E5F5">
+
+    <TextView
+        android:id="@+id/tvAngulo16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Usa dos dedos para girar el cuadro"
+        android:textSize="18sp"
+        android:layout_gravity="top|center_horizontal"
+        android:layout_marginTop="24dp" />
+
+    <View
+        android:id="@+id/vistaRotable16"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_gravity="center"
+        android:background="#8E24AA" />
+</FrameLayout>

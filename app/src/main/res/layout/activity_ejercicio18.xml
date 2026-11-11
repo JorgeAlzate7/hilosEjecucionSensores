@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/contenedor18"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ECEFF1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mueve escala y gira la imagen libremente"
+        android:textSize="18sp"
+        android:layout_gravity="top|center_horizontal"
+        android:layout_marginTop="24dp" />
+
+    <ImageView
+        android:id="@+id/ivImagen18"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_launcher_foreground"
+        android:background="@drawable/ic_launcher_background" />
+</FrameLayout>
